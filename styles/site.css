@@ -1,0 +1,167 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	height: 50px;
+}
+
+nav ul {
+	margin-right: 20px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 15px;
+	padding: 10px;
+	padding-top: 15px;
+	float: right;
+	margin-right: 5px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.search {
+	text-align: center;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 50px;
+	paddin-bottom: 25px;
+	height: 95px;
+}
+
+.field1 {
+	width: 550px;
+	height: 40px;
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	margin: 25px;
+	background: url("../mag.svg") no-repeat scroll 10px;
+	background-size: 20px;
+	padding-left: 40px;
+}
+
+
+/* reference for putting icon in input field: https://stackoverflow.com/questions/917610/put-icon-inside-input-element-in-a-form */
+
+.button {
+	background-color: #f8f9fa;
+	transition-duration: 0.4s;
+	height: 35px;
+	width: 150px;
+	border-color: gray;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	letter-spacing: .1px;
+	font-size: 15px;
+	font-weight: 200;
+	color: black;
+	margin: 5px;
+}
+
+.button:hover {
+	border-color: gray;
+}
+
+.as_header {
+	border-bottom: solid lightgray 1px;
+}
+
+.as_header h1 {
+	color: #d93025;
+	padding-left: 60px;
+	font-size: 140%;
+	padding-top: 20px;
+}
+
+#logo2 {
+	height: 30px;
+	padding-top: 10px;
+}
+
+#slogo {
+	padding: 0px;
+	margin: 0px;
+	float: none;
+}
+
+footer {
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	opacity: 90%
+}
+
+footer p {
+	color: gray;
+}
+
+.search_section {
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+.search_section h2 {
+	font-size: 99%;
+	color: #111112;
+}
+
+
+/*  reference for aligning forms and text: https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html  */
+
+.search_section form {
+	display: table;
+	border-spacing: 60px 1.2rem;
+}
+
+.search_section p {
+	display: table-row;
+	white-space: nowrap;
+}
+
+.search_section label {
+	display: table-cell;
+}
+
+.search_section input {
+	display: table-cell;
+	width: 400px;
+	height: 22px;
+	border-radius: 0;
+	border: 1px solid gray;
+	padding-left: 10px;
+}
+
+#button2 {
+	background-color: #4c8efb;
+	color: white;
+	width: 140px;
+	height: 34px;
+	border: none;
+	border-radius: 2px;
+}
+
+#button2:hover {
+	background-color: #3d79d9;
+}
